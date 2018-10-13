@@ -16,7 +16,7 @@ class Car
         return $this->color;
     }
 }
-$xx = new Car();
+$xx = new Car();  
 $aa = new Car('green');
 echo $xx->what_car() . "<br/>";
 echo $aa->what_car();
